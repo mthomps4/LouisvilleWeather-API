@@ -1,0 +1,50 @@
+body{
+  background:lightgray;
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#bg{
+  background-image: url(louisville.jpg);
+  height:400px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-top: 2px solid black;
+  border-bottom: 4px solid black;
+}
+
+#box{
+  width:30%;
+  height:200px;
+  background:#48F;
+  color:white;
+  border:6px solid white;
+  text-align: center;
+  min-width: 220px;
+}
+
+h1{
+  font-weight: 700;
+  font-size:3em;
+  color:black;
+  text-align: center;
+  margin-top:5%;
+}
+
+h2{
+  font-weight: 700;
+  font-size:1.75em;
+  padding:0px 10px;
+}
+
+span{
+  font-size: 2em;
+
+}
